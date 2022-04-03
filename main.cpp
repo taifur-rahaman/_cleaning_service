@@ -26,9 +26,9 @@ int main(){
     long double total_cost = small_room_cost + large_room_cost;
 
     double tax_rate = 0.06;
-    double tax = total_cost * tax_rate;
+    long double tax = total_cost * tax_rate;
 
-    double estimate_cost = tax + total_cost;
+    long double estimate_cost = tax + total_cost;
     short int service_validity = 30;
 
     cout << "==============================" << endl;
